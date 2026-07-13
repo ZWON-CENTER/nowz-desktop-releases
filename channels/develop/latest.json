@@ -1,11 +1,11 @@
 {
-  "version": "0.1.2",
-  "notes": "로그인 화면을 유지하고 배경만 파란색으로 변경한 Develop 업데이트입니다.",
-  "pub_date": "2026-07-13T06:07:43Z",
+  "version": "0.1.3",
+  "notes": "로그인 화면 배경을 연두색으로 변경하고, 업데이트를 5분 주기 및 창 focus 시 확인하는 Develop 업데이트입니다.",
+  "pub_date": "2026-07-13T06:42:25Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDdPOEM4NVFwUGs4M0gzUWpoa2NlTDI5WUhQSkF0RW9wdmIyajdhWkhmNXBnU0xHVXNRclpUcDBVc1N6aUh3MG44RnZydVJUblpQY0pWTG9MTFFrb2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTIyNjEzCWZpbGU6Tk9XWiBEZXZlbG9wLmFwcC50YXIuZ3oKbVVnaVVxeXM4bzVUdTFYNXc3a0ZkbmhWU2ttM3h0TTloRllHdnRZLzdJczkyV2ZENTg4REplSWdEd3c4NjUzSGJaekRtMjIyMHgvQ0g4YVp6czQyQ2c9PQo=",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/develop-v0.1.2/NOWZ.Develop.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDhVanlZU0RVb2I1ODdwc1ZYdERQWGVpSENMR2dEaE03cmd1Mjl1WlphUk9GR3VjaGJlcjIwQkxOUmsyaFlQbVBDY3JvYzdzMmJWUXBvK2toN2lmd3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTI0ODg2CWZpbGU6Tk9XWiBEZXZlbG9wLmFwcC50YXIuZ3oKVUlPQmVxWXNoRmNWcnpUV0dqaHY0UjZYVlpjRnpPdEZPSmFzd2s4bXZTcGY5SlZLZUR0N2xWZ1hOUWRFNVJ2ejEwOHNQenhUazlRbmJTTFUxSmtnQ0E9PQo=",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/develop-v0.1.3/NOWZ.Develop.app.tar.gz"
     }
   }
 }

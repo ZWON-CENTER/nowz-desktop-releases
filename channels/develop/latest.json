@@ -1,0 +1,11 @@
+{
+  "version": "0.1.1",
+  "notes": "Develop 자동 업데이트와 전역 업데이트 모달 검증 빌드입니다.",
+  "pub_date": "2026-07-13T05:55:52Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbHlvVzdKT0FvQm96MmJVZ3ZQR0tiWEc3cGNDNnBCUTd3c2JwZ2VSZ0VESGs3NEdJc2RtTWVpQUg4R3FvWDRmR05VcWF2QjZhWWJ2cXppRTlpQ2lhdGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTIxOTI5CWZpbGU6Tk9XWiBEZXZlbG9wLmFwcC50YXIuZ3oKSnVBU0NZSCtPSEZreUh2SGNuOEJ6NTZNbmg2VExtby9nWFM5eTV1QmVCak5nZnFGRGYyZVdiVUdhdmsvb0pEWGhoVjYwWjRVZEEyTTJ1NUZxS1BKRFE9PQo=",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/develop-v0.1.1/NOWZ.Develop.app.tar.gz"
+    }
+  }
+}

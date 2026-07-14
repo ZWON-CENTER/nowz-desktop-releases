@@ -1,35 +1,35 @@
 {
-  "version": "0.1.12",
-  "notes": "Develop 서버용 내부 테스트 빌드입니다.\n\n## 변경사항\n- refactor(CLB-607): 업데이트 설치 핸들러 중복 제거\n- fix(CLB-607): 경로 이동 시 오류 상태 초기화\n- test: 알림 완료 버튼 선택자 명확화\n- chore(CLB-607): 개발 배포 노트 자동 생성\n- feat(CLB-607): 로그인 후 데스크톱 업데이트 전환\n- feat(CLB-607): 카카오 지도를 Tauri frame으로 분리\n- test(CLB-607): 에러 경계 테스트 후 정리\n- fix(CLB-607): Tauri 지도 리뷰 지적 보완\n- fix(CLB-607): Tauri 지도 입력값 검증",
-  "pub_date": "2026-07-14T08:53:01.787Z",
+  "version": "0.1.13",
+  "notes": "Develop 서버용 내부 테스트 빌드입니다.\n\n## 변경사항\n- feat(CLB-607): 카카오 지도 독립 문서로 전환\n- feat(CLB-607): 브랜치별 Tauri 빌드 캐시 구성",
+  "pub_date": "2026-07-14T14:08:57.560Z",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDAzMXBLYUZlUk5kWHZpbElUVUwzeXY3MG5QZmd2TzBiSFZUbGk4d2dzd0locDFlc2NubTdMMVVLdGhXN1VxeHMyaWcyQ2R2cWExN1dsVXRJMVZtT3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDE4NTQ1CWZpbGU6Tk9XWiBEZXZlbG9wLmFwcC50YXIuZ3oKZ3hQaUdVa3FaUVBUWTRZV0tiUVNUdkhIOTRVdGlKYURVMHNVazVXRm9EamlTQ0E4VlhxQUdwYnJxSmJQZXcxa2o1d05zNHJJaVY2WTJFSzMwRFB1RFE9PQo=",
-      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476478321"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbCtrQjZUWndubnBUbXhramlBMXFKNnFwODQzN1kyZzNCRWdBWHNSSFd3ODlKZjhVdFZnQ0RVbTB3ZU8yZzc2d2xYeTF2TTZzMXplS3R1VXBJZEIxRGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDM3Nzc2CWZpbGU6Tk9XWiBEZXZlbG9wLmFwcC50YXIuZ3oKRFgzYUJLcUJhUGlDeTdjSGFhV3FMWExRQ08yUjk2dW5ldHZISm5PRG5CN0N2Q01qUitvencxalluQjV5a2M1RkU0UG8yVlVBUVJPTVlMeERnYVk0QlE9PQo=",
+      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476766492"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDAzMXBLYUZlUk5kWHZpbElUVUwzeXY3MG5QZmd2TzBiSFZUbGk4d2dzd0locDFlc2NubTdMMVVLdGhXN1VxeHMyaWcyQ2R2cWExN1dsVXRJMVZtT3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDE4NTQ1CWZpbGU6Tk9XWiBEZXZlbG9wLmFwcC50YXIuZ3oKZ3hQaUdVa3FaUVBUWTRZV0tiUVNUdkhIOTRVdGlKYURVMHNVazVXRm9EamlTQ0E4VlhxQUdwYnJxSmJQZXcxa2o1d05zNHJJaVY2WTJFSzMwRFB1RFE9PQo=",
-      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476478321"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbCtrQjZUWndubnBUbXhramlBMXFKNnFwODQzN1kyZzNCRWdBWHNSSFd3ODlKZjhVdFZnQ0RVbTB3ZU8yZzc2d2xYeTF2TTZzMXplS3R1VXBJZEIxRGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDM3Nzc2CWZpbGU6Tk9XWiBEZXZlbG9wLmFwcC50YXIuZ3oKRFgzYUJLcUJhUGlDeTdjSGFhV3FMWExRQ08yUjk2dW5ldHZISm5PRG5CN0N2Q01qUitvencxalluQjV5a2M1RkU0UG8yVlVBUVJPTVlMeERnYVk0QlE9PQo=",
+      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476766492"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbC91c1BRMDU3d29ENDZWMU9UZVJwYzZHUXJWdkpmZWdrR1FGRWIyOTFEWUNIeWhTUUZCdVRoaCs0T1JtY2xJZlJtWENmSi9kOGQ2QjYxVllCZ3AvdkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDE4NTgwCWZpbGU6Tk9XWiBEZXZlbG9wLmFwcC50YXIuZ3oKcHVoT2kwV29yOEZ5WW5vTVg4ZERlT2hMdkZ5RU54dGE3MllMbkdWL1ZtbEN1RGdsZWZIUkxzKzdleEEvUnozUVBEN2xucVdNRC8rK3hhMGs0QXM1RFE9PQo=",
-      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476478801"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDBRNC9WdkhnQ09FUGQ5enhZZzVEN1c0MDhEK0VLT1E4OGV3OCtRVHFaMUhobEVwTkl6V2hUU2ZWcGtPdVVCUGp4K1M1Q2w3QS9SZldLSUlZL2h2UHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDM3OTMxCWZpbGU6Tk9XWiBEZXZlbG9wLmFwcC50YXIuZ3oKeDhlTXlBdEVkWEVCek41QzNiMlFDb2NkN255Q2wvc2NjNVJmREphMWVUb2lWV3BvbEFETk4xbkd3TDdzMXdCNlgzSTRBWm55ckp1RlZTY0dxMldWQnc9PQo=",
+      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476769501"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbC91c1BRMDU3d29ENDZWMU9UZVJwYzZHUXJWdkpmZWdrR1FGRWIyOTFEWUNIeWhTUUZCdVRoaCs0T1JtY2xJZlJtWENmSi9kOGQ2QjYxVllCZ3AvdkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDE4NTgwCWZpbGU6Tk9XWiBEZXZlbG9wLmFwcC50YXIuZ3oKcHVoT2kwV29yOEZ5WW5vTVg4ZERlT2hMdkZ5RU54dGE3MllMbkdWL1ZtbEN1RGdsZWZIUkxzKzdleEEvUnozUVBEN2xucVdNRC8rK3hhMGs0QXM1RFE9PQo=",
-      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476478801"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDBRNC9WdkhnQ09FUGQ5enhZZzVEN1c0MDhEK0VLT1E4OGV3OCtRVHFaMUhobEVwTkl6V2hUU2ZWcGtPdVVCUGp4K1M1Q2w3QS9SZldLSUlZL2h2UHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDM3OTMxCWZpbGU6Tk9XWiBEZXZlbG9wLmFwcC50YXIuZ3oKeDhlTXlBdEVkWEVCek41QzNiMlFDb2NkN255Q2wvc2NjNVJmREphMWVUb2lWV3BvbEFETk4xbkd3TDdzMXdCNlgzSTRBWm55ckp1RlZTY0dxMldWQnc9PQo=",
+      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476769501"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDdzaGxEYVhHbVNGMHZBUDlqNWluTEMxZ1NRUU5URTUzVkNkejVUbld5NE9uUzNVcC82eCsxQUxBK0EvcW5UTUpXam9TZzdZOFlxWlJkU0NyUzBEMGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDE5MTc2CWZpbGU6Tk9XWiBEZXZlbG9wXzAuMS4xMl94NjRfZW4tVVMubXNpCjBRRUFuWC8wd3NZRjRQVEc4UXpiK2pxaXJVYXJIYlkxS1AyaUttN24yeHRXdW9NbTRvOGNjeHc1WEUrZ2FJaFJTKy92SzFRdmdnNUFsanduOHRKckJnPT0K",
-      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476486846"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDFpbTVoQ1BwOWpYQ1F6OVR4TjRLZU1oM2svbGRtYUp0OEk4bjdxeWoveXVsRHU0U0g3dm03SkRnTjYwa25kSEJIOHVOaStWVVBTZ2JBZmkvaC9NMlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDM4MTMyCWZpbGU6Tk9XWiBEZXZlbG9wXzAuMS4xM194NjRfZW4tVVMubXNpCkVpem9NK3I5cXhrQ0ZhM3hGVTdUNFN0NW9PKzJkZXl4TkJsRnNNZDR1MkJSeC9HTVBINDU0VXV2T1NIcWo0REJOOWJBSms1MGVjTzlJK2JNSER2Y0FBPT0K",
+      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476772793"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDdzaGxEYVhHbVNGMHZBUDlqNWluTEMxZ1NRUU5URTUzVkNkejVUbld5NE9uUzNVcC82eCsxQUxBK0EvcW5UTUpXam9TZzdZOFlxWlJkU0NyUzBEMGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDE5MTc2CWZpbGU6Tk9XWiBEZXZlbG9wXzAuMS4xMl94NjRfZW4tVVMubXNpCjBRRUFuWC8wd3NZRjRQVEc4UXpiK2pxaXJVYXJIYlkxS1AyaUttN24yeHRXdW9NbTRvOGNjeHc1WEUrZ2FJaFJTKy92SzFRdmdnNUFsanduOHRKckJnPT0K",
-      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476486846"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDFpbTVoQ1BwOWpYQ1F6OVR4TjRLZU1oM2svbGRtYUp0OEk4bjdxeWoveXVsRHU0U0g3dm03SkRnTjYwa25kSEJIOHVOaStWVVBTZ2JBZmkvaC9NMlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDM4MTMyCWZpbGU6Tk9XWiBEZXZlbG9wXzAuMS4xM194NjRfZW4tVVMubXNpCkVpem9NK3I5cXhrQ0ZhM3hGVTdUNFN0NW9PKzJkZXl4TkJsRnNNZDR1MkJSeC9HTVBINDU0VXV2T1NIcWo0REJOOWJBSms1MGVjTzlJK2JNSER2Y0FBPT0K",
+      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476772793"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDVQQTN0TmxJTmQySUhRZm1kMEpRbEwxZ3VKazFhck9LS2swRzlwcmg2VTFhc3VkWkk1WjZFa1pCMlZmV2VYRndSS1lpM2wvY2JrWWJJQzZiVWNYdHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDE5MTc2CWZpbGU6Tk9XWiBEZXZlbG9wXzAuMS4xMl94NjQtc2V0dXAuZXhlCnhrYjN1TW85VW1VRDFKNURMdjN6Q0lkRTBSMlIrK0FvWlFINDZpTFhMbW9mcUpnSmllRVQvSkx1aFVsNGJpRUpjeW9jWnFuaHRYdjZ5aHZWbHNkSUNBPT0K",
-      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476486868"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDEwS1V6bStvMkNLcGxDY2xtZUdjb2NSa0xWUC9ZS2kvTytVZkM3MGh0NlBiREl2ME1Bajg3Z0RUNFB0bWNNSWVtVStMaGQxZWZKZmJxVUh1SlZzL1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDM4MTMyCWZpbGU6Tk9XWiBEZXZlbG9wXzAuMS4xM194NjQtc2V0dXAuZXhlCk1GUjBsN3Ywc0NmaVRYU3FqZlZRUXRGb0VDVzFuQjhyeGcwbTBUWEF0ZldMOUQ4ekxZZWkyZDJMd04ydGN0ZllRd2Z2OE5tbCtXSTlyUFdaQVlvMkRBPT0K",
+      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/476772835"
     }
   }
 }

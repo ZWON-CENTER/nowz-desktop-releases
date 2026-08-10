@@ -1,23 +1,23 @@
 {
-  "version": "0.1.27",
-  "notes": "NOWZ Staging 빌드입니다.\n\n## 변경사항\n- fix(CLB-660): 지도 위치 시간 API 표기 반영\n- fix(CLB-660): 시험지 테이블 빈 상태 표시 보완\n- chore(CLB-660): 라우트 import graph 갱신\n- chore(CLB-660): 지도 시간 browser 검증 보강\n- fix(CLB-660): 채팅방 realtime 순서 보존\n- chore(CLB-660): 라우트 import graph 갱신\n- fix(CLB-660): 플로팅 채팅 관찰일지 테스트 안정화\n- fix(CLB-662): 미디어 모달 배경 클릭 닫힘 조정\n- fix(CLB-662): 학부모 캡처 전달 버튼 숨김\n- fix(CLB-662): 관찰일지 날짜 쿼리 충돌 방지\n- fix(CLB-662): 미등록 교재 주간계획 작성 차단\n- chore(CLB-662): 에이전트 import 그래프 갱신\n- fix(CLB-662): 관찰일지 날짜 키 테스트 보완\n- fix(CLB-662): PR 리뷰 지적사항 보완\n- fix(CLB-661): 채팅 AI 버튼 준비 토스트 노출\n- fix(CLB-661): 알림 읽음 뱃지 즉시 반영\n- fix(CLB-661): 체크리스트 알림 승인 입력 제어 보완\n- fix(CLB-661): 타우리 날짜 파싱 오류 수정\n- fix(CLB-661): 출결 코멘트 빈 행동코드 제외\n- fix(CLB-661): 등록 관리 테이블 스크롤 영역 보완\n- fix(CLB-661): 학생 검색바 레이어 조정\n- fix(CLB-661): 구성원 액션 팝오버 단일 제어\n- fix(CLB-661): 일정 팝오버 외부 클릭 닫힘 보완\n- fix(CLB-661): 플로팅 채팅 탭 이동 유지\n- fix(CLB-661): 대시보드 코멘트 작성 직후 시간 표시\n- fix(CLB-661): 구성원 메뉴 포커스와 상태 초기화\n- fix(CLB-661): 혜택 집행 날짜 쿼리 정규화\n- fix(CLB-661): 알림과 채팅 뱃지 검증 보강\n- fix(CLB-661): 등록 관리 테이블 높이 복원\n- fix(CLB-661): 플래너 보기 버튼 스타일 보완\n- fix(CLB-661): 플래너 버튼과 날짜 검증 보강\n- refactor(CLB-661): 구성원 테이블과 팝오버 구조 정리\n- fix(CLB-661): 팝오버 제어 props 계약 보완\n- chore(CLB-661): agent import graph 갱신",
-  "pub_date": "2026-08-07T14:29:03.618Z",
+  "version": "0.1.28",
+  "notes": "NOWZ Staging 빌드입니다.\n\n## 변경사항\n- fix(CLB-664): 주간보고 댓글 프로필 null 처리\n- fix(CLB-664): 프로그램 일정 중복 검사 보완\n- fix(CLB-664): 학습관리 교재 계획 가드 보완\n- chore(CLB-664): 에이전트 import 그래프 갱신\n- fix(CLB-664): 과제 학습시간 분 단위 표시\n- fix(CLB-664): 리뷰 검증 누락 보완",
+  "pub_date": "2026-08-10T14:39:43.023Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbHljWkJWVE5UZW9CWnRDcnNVUzlXS1FrbFM0dTBOZVNlaGxJdmFScEhySzZMVFBzZWFjT25DV2JSdkVJdnhibWE5dnBia2ZvVkRMLzRLUjU1eWdFMUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MTEyNTY4CWZpbGU6Tk9XWiBTdGFnaW5nLmFwcC50YXIuZ3oKTThWcWMrZHdCTHovRkRSa1FsWFg5K2hodWhtY2JaY1hHM3hhdFJLTmIxUUZRRlZHL0l0K2tVV3ROMXZFckx6Skp3VlFrZ29ldjVoN1BKWGcxVkdNQnc9PQo=",
-      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/505249993"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDNvb1h2ekRyWUNCMGxQbllVRWNSZnFVd2ROYVRPTC9kZG1RUzB4REV4eEtXTEZOVktsVWwwdEUxU0tyYnFHYmV6UlY5YnVZNTZJOHNvd2wvcGN1Q2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzcyMzA3CWZpbGU6Tk9XWiBTdGFnaW5nLmFwcC50YXIuZ3oKTVRiMmNGNllkS2VPRitQVGVzZ3htK3ZLK2w1YXhXdzd0ejREOExwZDd6TUJqekJDbVRYWjNDQzcvbTN0SyswUFQvZEp0SHVHM3czbnMwZkZoRmc4QkE9PQo=",
+      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/508855469"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbHljWkJWVE5UZW9CWnRDcnNVUzlXS1FrbFM0dTBOZVNlaGxJdmFScEhySzZMVFBzZWFjT25DV2JSdkVJdnhibWE5dnBia2ZvVkRMLzRLUjU1eWdFMUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MTEyNTY4CWZpbGU6Tk9XWiBTdGFnaW5nLmFwcC50YXIuZ3oKTThWcWMrZHdCTHovRkRSa1FsWFg5K2hodWhtY2JaY1hHM3hhdFJLTmIxUUZRRlZHL0l0K2tVV3ROMXZFckx6Skp3VlFrZ29ldjVoN1BKWGcxVkdNQnc9PQo=",
-      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/505249993"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDNvb1h2ekRyWUNCMGxQbllVRWNSZnFVd2ROYVRPTC9kZG1RUzB4REV4eEtXTEZOVktsVWwwdEUxU0tyYnFHYmV6UlY5YnVZNTZJOHNvd2wvcGN1Q2cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzcyMzA3CWZpbGU6Tk9XWiBTdGFnaW5nLmFwcC50YXIuZ3oKTVRiMmNGNllkS2VPRitQVGVzZ3htK3ZLK2w1YXhXdzd0ejREOExwZDd6TUJqekJDbVRYWjNDQzcvbTN0SyswUFQvZEp0SHVHM3czbnMwZkZoRmc4QkE9PQo=",
+      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/508855469"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDFGRGJEK0wxOXhoMDd2QTJEcDVENEJDU2NHSEFpTWgvNytqeXZBeGo2T1dueGxub0h1dkhRL1JSNm9iNDQrbks0UGtGLy9HenpSMnhKZUJweXBqNEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MTEyOTQwCWZpbGU6Tk9XWiBTdGFnaW5nXzAuMS4yN194NjQtc2V0dXAuZXhlCkM2YUtuYTc2NUptZUc1UnNzQlZMK3N1dkUvbDBOdnE2alR0b09saFhmUnBoOHcxdWtYaXdtNXp2a3UvT043N0tjS3lGaUhRTVVLbXBhcDhDTHpsSUNnPT0K",
-      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/505257366"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDdqczk4UTdkcEw2REVsbCs3Sk5ySTdnVWxVMTZDTWVuVlVBYnE0ZW1XQ3MwVkM0dm45L0I0YVI5S0ZmbXBaRHVZQ2VNc29DaVFIQ2ptM0lYWTNHdmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzcyNzc5CWZpbGU6Tk9XWiBTdGFnaW5nXzAuMS4yOF94NjQtc2V0dXAuZXhlCjVGcUR0S0lvQ2Nsbm53VVQvdkFBQW15eCsrelIvSTY3c0pEV0JPMXhrRG10eFY2d2NvUWQwWHFxWnRubnJGNmlSLzM1dDdxTU50Y0F2TWo2V1ZRYkFRPT0K",
+      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/508862669"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDFGRGJEK0wxOXhoMDd2QTJEcDVENEJDU2NHSEFpTWgvNytqeXZBeGo2T1dueGxub0h1dkhRL1JSNm9iNDQrbks0UGtGLy9HenpSMnhKZUJweXBqNEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MTEyOTQwCWZpbGU6Tk9XWiBTdGFnaW5nXzAuMS4yN194NjQtc2V0dXAuZXhlCkM2YUtuYTc2NUptZUc1UnNzQlZMK3N1dkUvbDBOdnE2alR0b09saFhmUnBoOHcxdWtYaXdtNXp2a3UvT043N0tjS3lGaUhRTVVLbXBhcDhDTHpsSUNnPT0K",
-      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/505257366"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDdqczk4UTdkcEw2REVsbCs3Sk5ySTdnVWxVMTZDTWVuVlVBYnE0ZW1XQ3MwVkM0dm45L0I0YVI5S0ZmbXBaRHVZQ2VNc29DaVFIQ2ptM0lYWTNHdmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzcyNzc5CWZpbGU6Tk9XWiBTdGFnaW5nXzAuMS4yOF94NjQtc2V0dXAuZXhlCjVGcUR0S0lvQ2Nsbm53VVQvdkFBQW15eCsrelIvSTY3c0pEV0JPMXhrRG10eFY2d2NvUWQwWHFxWnRubnJGNmlSLzM1dDdxTU50Y0F2TWo2V1ZRYkFRPT0K",
+      "url": "https://api.github.com/repos/ZWON-CENTER/nowz-desktop-releases/releases/assets/508862669"
     }
   }
 }

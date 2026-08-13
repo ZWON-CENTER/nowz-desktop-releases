@@ -1,23 +1,23 @@
 {
-  "version": "1.0.3",
-  "notes": "NOWZ Staging 빌드입니다.\n\n## 변경사항\n- chore: Tauri 창 닫기 권한 추가\n- fix: 회원가입 약관 동의 payload 동기화",
-  "pub_date": "2026-08-13T06:59:01.226Z",
+  "version": "1.0.4",
+  "notes": "NOWZ Staging 빌드입니다.\n\n## 변경사항\n- fix: 프로덕션 Admin 배지 카운트 정책 분리\n- chore: 라우트 import graph 갱신",
+  "pub_date": "2026-08-13T08:31:16.982Z",
   "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbHl0eXlRNzRMcVNaTWxFcndBcHVFcFhoTnU1WUZxbTJWL3dqMEI5T0FtRXc2UHBuYkhPbmhsYnQ3TnNaR0xkY1psVHpvSURGdUNOMkxTQUc4dnA0R3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjA0MzIwCWZpbGU6Tk9XWiBTdGFnaW5nXzEuMC4zX3g2NC1zZXR1cC5leGUKNWlQNHlIMmZzVE1idmlSS2VndFdjRkFtY3BONFJ5aGUvYURCZlVRZ0w5b0dvV2tVc1dvZER5WDRHNlVLcVQ0MGNJeWtialkxcndmNUQ1WFFmUUtSQnc9PQo=",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/staging-v1.0.3/NOWZ.Staging_1.0.3_x64-setup.exe"
-    },
-    "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbHl0eXlRNzRMcVNaTWxFcndBcHVFcFhoTnU1WUZxbTJWL3dqMEI5T0FtRXc2UHBuYkhPbmhsYnQ3TnNaR0xkY1psVHpvSURGdUNOMkxTQUc4dnA0R3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjA0MzIwCWZpbGU6Tk9XWiBTdGFnaW5nXzEuMC4zX3g2NC1zZXR1cC5leGUKNWlQNHlIMmZzVE1idmlSS2VndFdjRkFtY3BONFJ5aGUvYURCZlVRZ0w5b0dvV2tVc1dvZER5WDRHNlVLcVQ0MGNJeWtialkxcndmNUQ1WFFmUUtSQnc9PQo=",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/staging-v1.0.3/NOWZ.Staging_1.0.3_x64-setup.exe"
-    },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbHl3TVorb3krODJyRjdNaWU5Q2QvRmJaYmdvYXhsNHBUVGtUekxHcHJ0eGNxOFZabDlMaVNXUHFNT0JzcEVkd1ZZbE1VenZRaW92ZE9xUDVsaVdKUmc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjA0MzM2CWZpbGU6Tk9XWiBTdGFnaW5nLmFwcC50YXIuZ3oKbStQeTlyQlorQzJUZkxQYTk4czEvMlN4NUwzaENybHYvODcwc0VHdjhmelpYbHVTRmo4L2tiM3JYL0V1MkJkVGV5YWxORFMrVU5LeFRIMEFKQ2ZyQUE9PQo=",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/staging-v1.0.3/NOWZ.Staging_1.0.3_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDJCRjNHL1Noa2c0a2NIR3p0YmlYYVNjbHdCbWlCak5GVFBtUjRra3pobWlacGtpblVTT25GZEF0Nk1zbGxjU2xJWTZJYUxFc1IvTTNwdHE0bVg1QmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjA5NTcwCWZpbGU6Tk9XWiBTdGFnaW5nLmFwcC50YXIuZ3oKWVptSGF0MFpKeUptU1d2RFBNVG9vWGUxRHZwWDhmNVk0NjR0ZzJucGhlK1o2bFFBTEc4QkNtTVFwVVgyUzRGNEltSmwxMDRLTjQ3cWRwWVpYOUJ5Qnc9PQo=",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/staging-v1.0.4/NOWZ.Staging_1.0.4_aarch64.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbHl3TVorb3krODJyRjdNaWU5Q2QvRmJaYmdvYXhsNHBUVGtUekxHcHJ0eGNxOFZabDlMaVNXUHFNT0JzcEVkd1ZZbE1VenZRaW92ZE9xUDVsaVdKUmc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjA0MzM2CWZpbGU6Tk9XWiBTdGFnaW5nLmFwcC50YXIuZ3oKbStQeTlyQlorQzJUZkxQYTk4czEvMlN4NUwzaENybHYvODcwc0VHdjhmelpYbHVTRmo4L2tiM3JYL0V1MkJkVGV5YWxORFMrVU5LeFRIMEFKQ2ZyQUE9PQo=",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/staging-v1.0.3/NOWZ.Staging_1.0.3_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDJCRjNHL1Noa2c0a2NIR3p0YmlYYVNjbHdCbWlCak5GVFBtUjRra3pobWlacGtpblVTT25GZEF0Nk1zbGxjU2xJWTZJYUxFc1IvTTNwdHE0bVg1QmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjA5NTcwCWZpbGU6Tk9XWiBTdGFnaW5nLmFwcC50YXIuZ3oKWVptSGF0MFpKeUptU1d2RFBNVG9vWGUxRHZwWDhmNVk0NjR0ZzJucGhlK1o2bFFBTEc4QkNtTVFwVVgyUzRGNEltSmwxMDRLTjQ3cWRwWVpYOUJ5Qnc9PQo=",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/staging-v1.0.4/NOWZ.Staging_1.0.4_aarch64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDZiaHpwZXQ2TGs1VHpUZzNDVWx6bUsvMzNYeG1ubXEycmxNb3BRVE5JaTY3K0cvNHBZa2t6aVptTWRxRk0xbE5jWlRUNnpTL3UrNGdPZzhPOWErMEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjA5ODc0CWZpbGU6Tk9XWiBTdGFnaW5nXzEuMC40X3g2NC1zZXR1cC5leGUKYXEySmhCTWN1aEFJUHV0YnU0aTU5aTNEY0RlSTIyWlJrcm0rTkl4Wk4xZDhRc2NaSm9TdVREa0N6ZXYvS2pJNndjTm5KL1BtdmFLb3ZhZ0JtNVEyQlE9PQo=",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/staging-v1.0.4/NOWZ.Staging_1.0.4_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTeTY2K2ZXRXFZbDZiaHpwZXQ2TGs1VHpUZzNDVWx6bUsvMzNYeG1ubXEycmxNb3BRVE5JaTY3K0cvNHBZa2t6aVptTWRxRk0xbE5jWlRUNnpTL3UrNGdPZzhPOWErMEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjA5ODc0CWZpbGU6Tk9XWiBTdGFnaW5nXzEuMC40X3g2NC1zZXR1cC5leGUKYXEySmhCTWN1aEFJUHV0YnU0aTU5aTNEY0RlSTIyWlJrcm0rTkl4Wk4xZDhRc2NaSm9TdVREa0N6ZXYvS2pJNndjTm5KL1BtdmFLb3ZhZ0JtNVEyQlE9PQo=",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/staging-v1.0.4/NOWZ.Staging_1.0.4_x64-setup.exe"
     }
   }
 }

@@ -1,23 +1,23 @@
 {
-  "version": "1.0.6",
-  "notes": "NOWZ Production 빌드입니다.\n\n## 변경사항\n- feat(CLB-677): 일반 알림 클릭 시 알림 페이지 이동\n- fix(CLB-677): 학습시간 차트 좁은 화면 레이아웃 보완\n- fix(CLB-677): 채팅방 최근 메시지 유형별 문구 보완\n- fix(CLB-677): 채팅 알림 첨부파일 미리보기 보완\n- chore(CLB-677): 학습시간 차트 테스트 요소 검증 보완\n- chore(CLB-677): 알림 listener 해제 테스트 추가\n- fix: 학생 검색 교육단계·팀명 표시 보완",
-  "pub_date": "2026-08-14T04:57:55.369Z",
+  "version": "1.0.8",
+  "notes": "NOWZ Production 빌드입니다.\n\n## 변경사항\n- fix: 회의록을 관찰일지와 독립 노출\n- docs: 관찰일지 없는 회의록 처리 규칙 반영\n- fix: 미래 주간 계획 일괄 편집 허용\n- fix: 검색 디바운스 테스트 시계 고정\n- fix: 릴리스 테스트 병렬 실행 타임아웃 보완\n- fix: 미래 주간 계획을 월요일부터 일괄 작성",
+  "pub_date": "2026-08-14T09:39:32.723Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYm05NkFHUEhCWjVrVGtNYW5zZmJJa2F5NEdFT1Q3MGI0V0ZISUtxeDdNU1hWSGlRWW1YQjRTbnJoVWtEWFg0N0d1c2oyQ2tKbUtrbFhzd1NHL2xQenc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjgzMTkxCWZpbGU6Tk9XWi5hcHAudGFyLmd6CmNQNUhpMVkzSEltQW5SWWl2TG80bkJhNE15OXBkakprYVNLNTkyaHRaYnJXR3JpdjlhcnV4RG4vQTZSbTR5THAyK2ExeWNxdHJYb2Q4K2E0eVRiOEN3PT0K",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.6/NOWZ_1.0.6_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYm84eEhCV1BqUWExY0t5RHpyZmIxTE1QaHU3dEFGaEpDVDM1Sk0zWDVuZXpSWlh0bWl3alNwWTc4WXZKaHl5cEJmdFNOaUdZbUpNYS9UQXg1eHpaK3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzAwMTM5CWZpbGU6Tk9XWi5hcHAudGFyLmd6ClFURmpMbUFFWWdZMDBpSExJL3pNRTljLzhjcERoL0YwMXdITDE3T2NQbHQvQzZyUmp5cUVITWpRMWtkV3pDTHRNek5KWjNVOWMvK0tGdVY5VHlPNUFnPT0K",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.8/NOWZ_1.0.8_aarch64.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYm05NkFHUEhCWjVrVGtNYW5zZmJJa2F5NEdFT1Q3MGI0V0ZISUtxeDdNU1hWSGlRWW1YQjRTbnJoVWtEWFg0N0d1c2oyQ2tKbUtrbFhzd1NHL2xQenc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjgzMTkxCWZpbGU6Tk9XWi5hcHAudGFyLmd6CmNQNUhpMVkzSEltQW5SWWl2TG80bkJhNE15OXBkakprYVNLNTkyaHRaYnJXR3JpdjlhcnV4RG4vQTZSbTR5THAyK2ExeWNxdHJYb2Q4K2E0eVRiOEN3PT0K",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.6/NOWZ_1.0.6_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYm84eEhCV1BqUWExY0t5RHpyZmIxTE1QaHU3dEFGaEpDVDM1Sk0zWDVuZXpSWlh0bWl3alNwWTc4WXZKaHl5cEJmdFNOaUdZbUpNYS9UQXg1eHpaK3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzAwMTM5CWZpbGU6Tk9XWi5hcHAudGFyLmd6ClFURmpMbUFFWWdZMDBpSExJL3pNRTljLzhjcERoL0YwMXdITDE3T2NQbHQvQzZyUmp5cUVITWpRMWtkV3pDTHRNek5KWjNVOWMvK0tGdVY5VHlPNUFnPT0K",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.8/NOWZ_1.0.8_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmlzNnhEK0tCb0dtcGl6Rmo3UnJjRDEyVEovaWJIT2Jqa3BGeWJPdzFHVGRzWC84SW5tUk83REY5UE51WEU2dzN1Tmc5NjJQdDV6ejVpZmpIcnVwamdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjgzNDcyCWZpbGU6Tk9XWl8xLjAuNl94NjQtc2V0dXAuZXhlCis0UlRtSEN2RTBGakF4NFFHampJSjVuWXBJaWdnRm5MTG5qMFk3UVFNNEJEMklOWlE3WXJrRHp0bFNxVEEzenBBanB2V3loOHh4VkpKUnBMVzhHOUNRPT0K",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.6/NOWZ_1.0.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYnVKYzZ4eVdaYUdDQ1RTVGNsNjRWWDBWY3R5VkY4bS9xaEJDQUNTN2hZNzhOU2diK0NUMVRIcTVNN295UFphNkczamR6NkkrYVNKS2RmTXg3NkZ3UGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzAwMzY5CWZpbGU6Tk9XWl8xLjAuOF94NjQtc2V0dXAuZXhlCnBHa0dkcDZENmlrL0VFN3B1cEo0N0F2a0ovUGJWeVJkUXUza3FNN1NBcG44K1lDZGsxSVlUWWtLdC9pKzZLb2I4cEhqZk9RQklYWlB6R0UvbWwxS0JnPT0K",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.8/NOWZ_1.0.8_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmlzNnhEK0tCb0dtcGl6Rmo3UnJjRDEyVEovaWJIT2Jqa3BGeWJPdzFHVGRzWC84SW5tUk83REY5UE51WEU2dzN1Tmc5NjJQdDV6ejVpZmpIcnVwamdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjgzNDcyCWZpbGU6Tk9XWl8xLjAuNl94NjQtc2V0dXAuZXhlCis0UlRtSEN2RTBGakF4NFFHampJSjVuWXBJaWdnRm5MTG5qMFk3UVFNNEJEMklOWlE3WXJrRHp0bFNxVEEzenBBanB2V3loOHh4VkpKUnBMVzhHOUNRPT0K",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.6/NOWZ_1.0.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYnVKYzZ4eVdaYUdDQ1RTVGNsNjRWWDBWY3R5VkY4bS9xaEJDQUNTN2hZNzhOU2diK0NUMVRIcTVNN295UFphNkczamR6NkkrYVNKS2RmTXg3NkZ3UGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzAwMzY5CWZpbGU6Tk9XWl8xLjAuOF94NjQtc2V0dXAuZXhlCnBHa0dkcDZENmlrL0VFN3B1cEo0N0F2a0ovUGJWeVJkUXUza3FNN1NBcG44K1lDZGsxSVlUWWtLdC9pKzZLb2I4cEhqZk9RQklYWlB6R0UvbWwxS0JnPT0K",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.8/NOWZ_1.0.8_x64-setup.exe"
     }
   }
 }

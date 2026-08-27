@@ -1,23 +1,23 @@
 {
-  "version": "1.0.15",
-  "notes": "NOWZ Production 빌드입니다.\n\n## 변경사항\n- chore: 예약 릴리즈 수요일 자정 실행\n- fix(CLB-703): 채팅 메뉴 스크롤 테스트 fixture 보완\n- fix(CLB-703): 메시지 메뉴 스크롤 위치 검증 보완\n- fix(CLB-703): 메시지 메뉴 스크롤 테스트 안정화\n- feat(CLB-704): 체크리스트 없음 옵션과 요청 변환 지원\n- fix(CLB-704): 무보상 체크리스트 표시와 승인 흐름 보완\n- test(CLB-704): 보상 요청 유지 경로 검증\n- fix: 규칙 기록 달력 날짜 조회 동기화\n- fix: 규칙 기록 달력 월 조회 동기화\n- fix: 규칙 기록 달력 스켈레톤 간격 보정\n- fix: 계좌 확인 요청 하이픈 제거\n- fix: 사용자 계좌 저장 하이픈 제거\n- fix: 송금 계좌 요청 하이픈 제거\n- fix(CLB-700): 짧은 일정 툴팁 표시 보완\n- fix(CLB-700): 짧은 일정 충돌 배치와 표시 기준 보완\n- chore(CLB-700): 짧은 일정 배치 Storybook 사례 추가\n- fix(CLB-700): 주간 캘린더 짧은 일정 툴팁 보완\n- fix(CLB-700): 0분 주간 일정 숨김\n- fix(CLB-700): 학생 일정 짧은 블록 표시 기준 통일\n- test(CLB-700): 0분 일정 미렌더링 검증 강화\n- fix(CLB-707): 체크리스트 반복없음 기본값 수정\n- fix: 채팅 메뉴 스크롤 테스트 기대 동작 수정",
-  "pub_date": "2026-08-26T09:54:09.332Z",
+  "version": "1.0.16",
+  "notes": "NOWZ Production 빌드입니다.\n\n## 변경사항\n- fix(CLB-712): 학생 목록 테이블 축소와 가로 스크롤 보완\n- feat(CLB-712): 검색 드롭다운 상세 정보 표시 개선\n- feat(CLB-712): 사용자 검색 전체선택과 응답 검증 추가\n- feat(CLB-712): 비용 학생 검색 상세 정보 표시\n- fix(CLB-712): 카드 기록 학생 검색 폭 보정\n- chore(CLB-712): 에이전트 import graph 갱신\n- fix(CLB-712): 목록 테이블 축소와 가로 스크롤 공통화\n- fix(CLB-712): 사용자 검색 nullable 프로필 검증 보완\n- fix(CLB-713): 웹 반응형 레이아웃 보완\n- feat(CLB-713): 모바일 채팅 전체 화면 연결\n- fix(CLB-713): 주요 화면 모바일 레이아웃 보완\n- fix(CLB-712): PR 리뷰 피드백 반영\n- fix(CLB-712): 모바일 대응 롤백\n- fix(CLB-712): 생년월일 nullable 응답 허용\n- feat(CLB-712): 프로그램 기록 삭제 API 연결\n- docs(CLB-712): 프로그램 기록 삭제 책임 문서 갱신",
+  "pub_date": "2026-08-27T10:55:35.428Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYnU1YlNTWkxvODRrb25NRUx0UnUzdkthalYvb0k3MVNLd2lRblZhMmNDdmxnbmZXM2VaZ0NDcDRsSy9YaHl5QlB1LzNybUdmc1R5Wmx0NDVOK0JsK0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NzM3NzUyCWZpbGU6Tk9XWi5hcHAudGFyLmd6ClArKzJpUU54czNRa0I2bHdLQUE5YUhnMlAwTWEzYUxlY0lqMXJqbU1VT2pVSlhTVEUvdVloaHNkYjhjeVZYRy9lN2FvdFNjRk9FOUpadUVrWDVUN0RRPT0K",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.15/NOWZ_1.0.15_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmlMRFVsM09LT1ZMQUsrQUcyU0E1UGJnUHRqWE56KzM4SExaVE1hb0lvOXhkTWhURWlhWm1PSzVuNWlCakxQMCtSNFhsT1NsbjRkSDlhaVJoTUJ2ZkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODI3NjM0CWZpbGU6Tk9XWi5hcHAudGFyLmd6CnFLVWhxQVVvb1FIeCtveGxuV0NiSmdienZCZEhSOTd6OC83enBqdTQ2UG52SWRHWnlvcUpXS3ZFZ1BmbktQQjRxenkzaWlranhXWi83U05wei9rQUFnPT0K",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.16/NOWZ_1.0.16_aarch64.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYnU1YlNTWkxvODRrb25NRUx0UnUzdkthalYvb0k3MVNLd2lRblZhMmNDdmxnbmZXM2VaZ0NDcDRsSy9YaHl5QlB1LzNybUdmc1R5Wmx0NDVOK0JsK0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NzM3NzUyCWZpbGU6Tk9XWi5hcHAudGFyLmd6ClArKzJpUU54czNRa0I2bHdLQUE5YUhnMlAwTWEzYUxlY0lqMXJqbU1VT2pVSlhTVEUvdVloaHNkYjhjeVZYRy9lN2FvdFNjRk9FOUpadUVrWDVUN0RRPT0K",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.15/NOWZ_1.0.15_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmlMRFVsM09LT1ZMQUsrQUcyU0E1UGJnUHRqWE56KzM4SExaVE1hb0lvOXhkTWhURWlhWm1PSzVuNWlCakxQMCtSNFhsT1NsbjRkSDlhaVJoTUJ2ZkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODI3NjM0CWZpbGU6Tk9XWi5hcHAudGFyLmd6CnFLVWhxQVVvb1FIeCtveGxuV0NiSmdienZCZEhSOTd6OC83enBqdTQ2UG52SWRHWnlvcUpXS3ZFZ1BmbktQQjRxenkzaWlranhXWi83U05wei9rQUFnPT0K",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.16/NOWZ_1.0.16_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmlsUFpwNVN1QWcrWGRMT0VkbTVsQ1hiUVAxeEs0N1E5aUhWTjVoQ2cxOWdLTFdaekV5N1Q4UWFnL2tkQUw5a0lhVVRMT1c3OUN5OFdRU0VoSU5FcGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NzM4MDQ0CWZpbGU6Tk9XWl8xLjAuMTVfeDY0LXNldHVwLmV4ZQpyM2gxNWVJbU1GQW9MajdBdTBXTWZJdWU1VGFDUHpJUEN5MHBtbWdWVGVKNFdVSFJ1akt0aUpNeDdLRU40bzRSMldCdGVXVHBWQml1aWdoVlJtcU9EQT09Cg==",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.15/NOWZ_1.0.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYnJwMlJLbEx6V3FnMnZXVnBTdDJNSm5xQnl0MFMvWVF0UGREZG5abEFOQVA5VXMvNXlQdW51Q21JZWZiZUhYRVh0d0RPQUpwVUNCVWNPNEZsZ1NIUkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODI4MTI5CWZpbGU6Tk9XWl8xLjAuMTZfeDY0LXNldHVwLmV4ZQppeHpBUVJXNnlIWHcvMmRodFgxd3E5b2dTQVN4SnhpbmdvTHNVcFV4NlBqZ0NmSnVncmpLaWp5Z2JrMVRGL3lQN0g2QlRueXVWbmZQcXJJeVNQdGdDQT09Cg==",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.16/NOWZ_1.0.16_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmlsUFpwNVN1QWcrWGRMT0VkbTVsQ1hiUVAxeEs0N1E5aUhWTjVoQ2cxOWdLTFdaekV5N1Q4UWFnL2tkQUw5a0lhVVRMT1c3OUN5OFdRU0VoSU5FcGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NzM4MDQ0CWZpbGU6Tk9XWl8xLjAuMTVfeDY0LXNldHVwLmV4ZQpyM2gxNWVJbU1GQW9MajdBdTBXTWZJdWU1VGFDUHpJUEN5MHBtbWdWVGVKNFdVSFJ1akt0aUpNeDdLRU40bzRSMldCdGVXVHBWQml1aWdoVlJtcU9EQT09Cg==",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.15/NOWZ_1.0.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYnJwMlJLbEx6V3FnMnZXVnBTdDJNSm5xQnl0MFMvWVF0UGREZG5abEFOQVA5VXMvNXlQdW51Q21JZWZiZUhYRVh0d0RPQUpwVUNCVWNPNEZsZ1NIUkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODI4MTI5CWZpbGU6Tk9XWl8xLjAuMTZfeDY0LXNldHVwLmV4ZQppeHpBUVJXNnlIWHcvMmRodFgxd3E5b2dTQVN4SnhpbmdvTHNVcFV4NlBqZ0NmSnVncmpLaWp5Z2JrMVRGL3lQN0g2QlRueXVWbmZQcXJJeVNQdGdDQT09Cg==",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.0.16/NOWZ_1.0.16_x64-setup.exe"
     }
   }
 }

@@ -1,26 +1,26 @@
 {
-  "version": "1.2.6",
-  "notes": "NOWZ Production 빌드입니다.\n\n## 변경사항\n- feat(CLB-832): 웹 정기 배포 Slack 알림 추가\n- fix(CLB-832): 배포 알림 주석 조회 오류 전파\n- fix(CLB-832): 교재 모달 닫힘 대기 테스트 보완\n- fix(CLB-833): 송금 이력에 따라 체크리스트 승인 분기\n- fix(CLB-833): 체크리스트 기록 날짜로 송금 이력 단건 조회\n- fix(CLB-833): 학생 답변도 체크리스트 송금 조건에 포함\n- fix(CLB-833): 프로그램 탭 이탈 후 기록 이동 방지\n- fix(CLB-833): 체크리스트 승인 전용 조회로 송금 판단\n- fix(CLB-833): 대상 전환 시 이전 체크리스트 승인 차단\n- fix(CLB-833): 대상 전환 후 이전 송금과 승인 응답 차단\n- fix(CLB-833): 이전 송금 응답의 새 시트 종료 방지\n- chore: Staging 버전 갱신",
-  "pub_date": "2026-11-20T07:22:24.240Z",
+  "version": "1.2.7",
+  "notes": "NOWZ Production 빌드입니다.\n\n## 변경사항\n- fix(CLB-835): 주말 피드백 체크리스트 송금 모달 조건 보완\n- chore: Staging 버전 갱신",
+  "pub_date": "2026-11-24T23:35:04.524Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmtFRVF1S3BLbUdYN2RoN3FxU3BHK1dteVdhQ3hzT0xad2pDSDhpUTZwZWhQWGRZTlNCbnI3NEZ0YVA4WWxheER2Nlo2TmRxejgrRkJKbjY5TnFEYVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTU4Nzg3CWZpbGU6Tk9XWi5hcHAudGFyLmd6CXZlcnNpb246MS4yLjYKRjF0akV1dkFDblh0L2EvQmNuWU9WKy9pUHBPMHlDSm5FK2dHYjhjZGd5MFhlL2F1L2xuNjdvSG1VRFRHQTJiVmVzNWtYZE1jSVorclFPbDA3U1JCQ1E9PQo=",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.2.6-60818eaede28bd970d2f32d3f41e556efe8bdefe/NOWZ_1.2.6_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmx6czdPa1dUdktoSVJwUUlEUmQvV09adGw3ZHkrSmw3WmN6cHRvdWpob3l4cE1rSEkrdmRnZE1HYWF5Nk5VS0hPUjJCcTFPUDl5aHhmdGFVYjhzU0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTYyNzQwCWZpbGU6Tk9XWi5hcHAudGFyLmd6CXZlcnNpb246MS4yLjcKcmx3MFNJOWVvQnVJSnY3SVlyazhIQ1ArOERpbmNMNVpLVzFrRDFrb1d5aXR4aXoxNmkvQ1R6NG9DMlJhVjJ0UmovanB6RCtWK2JwSGMvRS9pc0UwQ3c9PQo=",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.2.7-07641ee4849aec1202e24e7289df095c71536dfe/NOWZ_1.2.7_aarch64.app.tar.gz"
     },
     "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmtFRVF1S3BLbUdYN2RoN3FxU3BHK1dteVdhQ3hzT0xad2pDSDhpUTZwZWhQWGRZTlNCbnI3NEZ0YVA4WWxheER2Nlo2TmRxejgrRkJKbjY5TnFEYVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTU4Nzg3CWZpbGU6Tk9XWi5hcHAudGFyLmd6CXZlcnNpb246MS4yLjYKRjF0akV1dkFDblh0L2EvQmNuWU9WKy9pUHBPMHlDSm5FK2dHYjhjZGd5MFhlL2F1L2xuNjdvSG1VRFRHQTJiVmVzNWtYZE1jSVorclFPbDA3U1JCQ1E9PQo=",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.2.6-60818eaede28bd970d2f32d3f41e556efe8bdefe/NOWZ_1.2.6_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmx6czdPa1dUdktoSVJwUUlEUmQvV09adGw3ZHkrSmw3WmN6cHRvdWpob3l4cE1rSEkrdmRnZE1HYWF5Nk5VS0hPUjJCcTFPUDl5aHhmdGFVYjhzU0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTYyNzQwCWZpbGU6Tk9XWi5hcHAudGFyLmd6CXZlcnNpb246MS4yLjcKcmx3MFNJOWVvQnVJSnY3SVlyazhIQ1ArOERpbmNMNVpLVzFrRDFrb1d5aXR4aXoxNmkvQ1R6NG9DMlJhVjJ0UmovanB6RCtWK2JwSGMvRS9pc0UwQ3c9PQo=",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.2.7-07641ee4849aec1202e24e7289df095c71536dfe/NOWZ_1.2.7_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmxZRFZaeGdIRzhyN2RvUjhhMTlzeHI4SDBNT0ZRbW9hdkVNM1U5aDR3cVN0dEUwbU54d0tTV2dNMUVNWXg4OUE1azhXdG5sRUYxM2VNSjJHdy9Ya3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTU5MzQwCWZpbGU6Tk9XWl8xLjIuNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yLjYKN00yTUxxU0owSlE4TVZMMFd2TjNSTkxHY1FxT1BxcFRlWDdYUTJVbFRPRlBCL1pWVFFsWDFyMi9EdUlUSmV0TFNrUUxWQ3RoNjRrUHBWS3VNR0lHQXc9PQo=",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.2.6-60818eaede28bd970d2f32d3f41e556efe8bdefe/NOWZ_1.2.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYnZQQmpZMTNTMytLWitpUFpWcWhlU3lHcTFSaHRVQXQ1czg1amFHOE1KRE5tNXVXOStlQWRSS3hYYjBiZHJ6MWp0cklnZVdGbTVHM2VsV2lMWjMvZ3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTYzMzAwCWZpbGU6Tk9XWl8xLjIuN194NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yLjcKNXQyVHZHNkJSZ0RtcksxUFhTM0o5Qmo1VFlHdWhBMy9weHNwcjkxQVgrUnk1VEdmdjQvbW9oTG1qTkpkR3cwY2xPeDhBOVV3eXd0eWFJc0ZvTDJxQkE9PQo=",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.2.7-07641ee4849aec1202e24e7289df095c71536dfe/NOWZ_1.2.7_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYmxZRFZaeGdIRzhyN2RvUjhhMTlzeHI4SDBNT0ZRbW9hdkVNM1U5aDR3cVN0dEUwbU54d0tTV2dNMUVNWXg4OUE1azhXdG5sRUYxM2VNSjJHdy9Ya3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTU5MzQwCWZpbGU6Tk9XWl8xLjIuNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yLjYKN00yTUxxU0owSlE4TVZMMFd2TjNSTkxHY1FxT1BxcFRlWDdYUTJVbFRPRlBCL1pWVFFsWDFyMi9EdUlUSmV0TFNrUUxWQ3RoNjRrUHBWS3VNR0lHQXc9PQo=",
-      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.2.6-60818eaede28bd970d2f32d3f41e556efe8bdefe/NOWZ_1.2.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMUFuZ1NuR1lMYnZQQmpZMTNTMytLWitpUFpWcWhlU3lHcTFSaHRVQXQ1czg1amFHOE1KRE5tNXVXOStlQWRSS3hYYjBiZHJ6MWp0cklnZVdGbTVHM2VsV2lMWjMvZ3d3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTYzMzAwCWZpbGU6Tk9XWl8xLjIuN194NjQtc2V0dXAuZXhlCXZlcnNpb246MS4yLjcKNXQyVHZHNkJSZ0RtcksxUFhTM0o5Qmo1VFlHdWhBMy9weHNwcjkxQVgrUnk1VEdmdjQvbW9oTG1qTkpkR3cwY2xPeDhBOVV3eXd0eWFJc0ZvTDJxQkE9PQo=",
+      "url": "https://github.com/ZWON-CENTER/nowz-desktop-releases/releases/download/production-v1.2.7-07641ee4849aec1202e24e7289df095c71536dfe/NOWZ_1.2.7_x64-setup.exe"
     }
   },
-  "candidate_sha": "60818eaede28bd970d2f32d3f41e556efe8bdefe",
-  "candidate_tag": "staging-v1.2.6-60818eaede28bd970d2f32d3f41e556efe8bdefe",
-  "production_tag": "production-v1.2.6-60818eaede28bd970d2f32d3f41e556efe8bdefe"
+  "candidate_sha": "07641ee4849aec1202e24e7289df095c71536dfe",
+  "candidate_tag": "staging-v1.2.7-07641ee4849aec1202e24e7289df095c71536dfe",
+  "production_tag": "production-v1.2.7-07641ee4849aec1202e24e7289df095c71536dfe"
 }

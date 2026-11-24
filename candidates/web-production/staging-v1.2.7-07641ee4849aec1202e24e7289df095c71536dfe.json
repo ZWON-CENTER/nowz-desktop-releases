@@ -1,0 +1,9 @@
+{
+  "version": "1.2.7",
+  "tag": "staging-v1.2.7-07641ee4849aec1202e24e7289df095c71536dfe",
+  "sha": "07641ee4849aec1202e24e7289df095c71536dfe",
+  "release_pr": 218,
+  "merge_sha": "9ce273c2af5c4df077cfcd85eb909670f1725ff3",
+  "deployment_id": "dpl_wUT4xLW7CS4HmvBBjWABR5oZ3NzZ",
+  "deployment_sha": "9ce273c2af5c4df077cfcd85eb909670f1725ff3"
+}
